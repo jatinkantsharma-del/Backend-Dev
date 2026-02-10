@@ -1,0 +1,35 @@
+Date: 20/1/2026, 11:05:23 am,
+        Platform: win32, 
+        CPU Model: 13th Gen Intel(R) Core(TM) i5-13420H, 
+        Total Memory: 15.595260620117188 GB, 
+        Free Memory: 6.391620635986328 GB, 
+        Uptime: 117.05252166666666 hours
+        
+    Date: 20/1/2026, 11:10:21 am,
+            Platform: win32, 
+            CPU Model: 13th Gen Intel(R) Core(TM) i5-13420H, 
+            Total Memory: 15.595260620117188 GB, 
+            Free Memory: 6.415626525878906 GB, 
+            Uptime: 117.13515166666666 hours
+            
+    Date: 20/1/2026, 11:10:26 am,
+            Platform: win32, 
+            CPU Model: 13th Gen Intel(R) Core(TM) i5-13420H, 
+            Total Memory: 15.595260620117188 GB, 
+            Free Memory: 6.399326324462891 GB, 
+            Uptime: 117.13654055555554 hours
+            
+    Date: 20/1/2026, 11:10:31 am,
+            Platform: win32, 
+            CPU Model: 13th Gen Intel(R) Core(TM) i5-13420H, 
+            Total Memory: 15.595260620117188 GB, 
+            Free Memory: 6.411701202392578 GB, 
+            Uptime: 117.13792944444444 hours
+            
+    Date: 20/1/2026, 11:10:36 am,
+            Platform: win32, 
+            CPU Model: 13th Gen Intel(R) Core(TM) i5-13420H, 
+            Total Memory: 15.595260620117188 GB, 
+            Free Memory: 6.417228698730469 GB, 
+            Uptime: 117.13931833333332 hours
+            
