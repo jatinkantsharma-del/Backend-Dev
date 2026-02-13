@@ -88,10 +88,14 @@ app.put("/students/:id", (req,res) =>{
             return res.status(500).send("Student not found");
         }
         return res.status(200).json(students)
-    })
+    }) 
+
 })
+
 })
 
 app.listen(PORT, () => {
     console.log(`Server is running on port:${PORT}`);
 })
+
+
