@@ -1,0 +1,25 @@
+use libraryDB
+
+db.createCollection("books")
+db.createCollection("borrowedBooks")
+
+db.books.insertOne({
+  title: "The Alchemist",
+  author: "Paulo Coelho",
+  genre: "Fiction",
+  available: true
+})
+
+db.books.find({ author: "Paulo Coelho" })
+
+db.books.updateOne(
+  { title: "The Alchemist" },
+  { $set: { available: false } }
+)
+
+db.borrowedBooks.insertOne({
+  userName: "Ayush",
+  bookTitle: "The Alchemist",
+  borrowDate: new Date(),
+  returnDate: null
+})

@@ -1,0 +1,44 @@
+1. Online Banking System → SQL (Relational Database)
+
+Why?
+Requires high consistency & accuracy (ACID properties)
+Transactions must be reliable and secure
+Structured data (accounts, balances, transactions)
+
+Example: MySQL, PostgreSQL
+
+2. Social Media Platform → NoSQL
+
+Why?
+Handles huge unstructured data (posts, likes, comments, media)
+Needs high scalability (millions of users)
+Flexible schema (user data keeps changing)
+
+Example: MongoDB, Cassandra
+
+3. Real-time Chat Application → NoSQL
+
+Why?
+Requires fast read/write operations
+Data is semi-structured (messages, timestamps)
+Needs real-time performance & scalability
+
+Example: Firebase, MongoDB
+
+4. Hospital Patient Records → SQL
+
+Why?
+Needs data integrity & accuracy
+Structured relationships (patients, doctors, reports)
+Must follow strict regulations and consistency
+
+Example: PostgreSQL, Oracle
+
+5. IoT Sensor Data Collection → NoSQL
+
+Why?
+Handles massive continuous data streams
+Data is often time-series & semi-structured
+Requires horizontal scaling
+
+Example: Cassandra, InfluxDB

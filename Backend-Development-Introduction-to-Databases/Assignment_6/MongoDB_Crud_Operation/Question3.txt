@@ -1,0 +1,26 @@
+{
+  _id: ObjectId("..."),
+  courseName: "Data Structures",
+  courseCode: "CS201",
+  credits: 4,
+  prerequisites: [
+    ObjectId("..."), // Reference to another course
+    ObjectId("...")
+  ]
+}
+
+{
+  _id: ObjectId("..."),
+  name: "Dr. Sharma",
+  email: "sharma@college.com",
+  departments: ["Computer Science", "IT", "AI"],
+  experience: 10
+}
+
+{
+  _id: ObjectId("..."),
+  studentId: ObjectId("..."), // Reference to student
+  courseId: ObjectId("..."),  // Reference to course
+  grade: "A",
+  semester: "Semester 3"
+}

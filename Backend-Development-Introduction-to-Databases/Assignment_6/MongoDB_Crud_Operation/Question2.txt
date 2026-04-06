@@ -1,0 +1,23 @@
+db.students.find({
+  gpa: { $gte: 3.0, $lte: 3.5 }
+})
+
+db.students.find({
+  courses: { $size: { $gt: 5 } }
+})
+db.students.find({
+  $expr: { $gt: [ { $size: "$courses" }, 5 ] }
+})
+
+db.students.find()
+  .sort({ gpa: -1 })
+  .limit(10)
+
+db.students.aggregate([
+  {
+    $group: {
+      _id: "$city",
+      totalStudents: { $sum: 1 }
+    }
+  }
+])
